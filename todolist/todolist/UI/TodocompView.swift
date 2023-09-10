@@ -23,7 +23,7 @@ struct TodocompView: View {
         
        
         self._items=FirestoreQuery(
-            collectionPath:"users/bpcw8OoniSfGwoWL2DuoLLBF3rq1/todos")
+            collectionPath:"users/(user id)/todos")
     }
     
     
